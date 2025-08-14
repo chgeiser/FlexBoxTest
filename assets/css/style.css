@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 25%;
+}
+
+.box img{
+    width: 100%;
+    padding: 15px;
+}
+
+.hero{
+    background-image: url(https://archigus.com/wp-content/uploads/2020/05/zaha1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: end;
+   
+}
+
+.content{
+    display: flex;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+menu{
+
+    display: flex;
+
+}
+
+ul{
+    background-color: black;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+li{
+    list-style: none;
+    padding: 2rem;
+}
+
+.main-container{
+    display: flex;
+}
+
+.content-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+li img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+.container{
+    display: flex;
+
+}

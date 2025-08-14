@@ -1,0 +1,43 @@
+    *{
+    margin: 0;
+    padding: 0
+}
+    .container{
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+
+    .box{  
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 300px;
+        justify-content: center;
+
+    }
+
+    .box img{
+        width: 250px;
+      height: 250px;
+    }
+
+    img {
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    padding: 2rem;
+}
