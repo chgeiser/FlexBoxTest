@@ -3,7 +3,7 @@
     padding: 0
 }
 
-.boxes{
+/*.boxes{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -26,7 +26,7 @@
     height: 100vh;
     align-items: end;
    
-}
+}*/
 
 .content{
     display: flex;
@@ -45,19 +45,31 @@ menu{
 }
 
 ul{
-    background-color: black;
+    background-color: white;
     align-items: center;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
-    width: 15vw;
+    width: 25vw;
     height: 100vh;
     overflow-y: scroll;
 }
 
 li{
     list-style: none;
+    border:1px;
     padding: 2rem;
+}
+
+li button{
+    background-color: #A491D2;
+    color: white;
+}
+
+.iconos{
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .main-container{
@@ -74,8 +86,8 @@ li{
 }
 
 li img {
-      width: 40px;
-      height: 40px;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
       object-fit: cover;
     }
@@ -83,4 +95,28 @@ li img {
 .container{
     display: flex;
 
+}
+
+h1{
+    font-family: "Roboto";
+    font-size: 50px;
+}
+
+/*.container p{
+    font-family: "Roboto";
+    font-size: 40px;
+}*/
+
+/*.text-container p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}*/
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.subtitles{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
 }
