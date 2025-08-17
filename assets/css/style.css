@@ -58,6 +58,7 @@ ul{
     width: 30vw;
     height: 100vh;
     overflow-y: scroll;
+    padding-right: 1px;
 }
 
 li{
@@ -132,3 +133,4 @@ h1{
     font-size: large;
     font-weight: 400;
 }
+
