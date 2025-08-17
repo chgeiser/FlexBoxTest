@@ -31,23 +31,23 @@
 .content{
     display: flex;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 4rem;
 }
 
 .content-1{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-menu{
-
+.content-0{
     display: flex;
-
+    justify-content:space-between;
+    width: 14vw;
 }
+
 
 ul{
     background-color: white;
@@ -55,26 +55,30 @@ ul{
     color: black;
     display: flex;
     flex-direction: column;
-    width: 25vw;
+    width: 30vw;
     height: 100vh;
     overflow-y: scroll;
 }
 
 li{
     list-style: none;
-    border:1px;
     padding: 2rem;
+    width: 17vw;
+    border: 2px;
+    border-color: gray;
 }
 
 li button{
     background-color: #A491D2;
     color: white;
+    width: 160px;
+    height: 40px;
 }
 
 .iconos{
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -83,6 +87,7 @@ li button{
 }
 
 .content-p{
+    background-color: #E8EBE4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +108,6 @@ li img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -112,16 +116,6 @@ h1{
     font-weight: 400;
     font-size: 50px;
 }
-
-/*.container p{
-    font-family: "Roboto";
-    font-size: 40px;
-}*/
-
-/*.text-container p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-}*/
 
 .title{
     font-family: "Open Sans";
