@@ -99,6 +99,7 @@ li img {
 
 h1{
     font-family: "Roboto";
+    font-weight: 400;
     font-size: 50px;
 }
 
@@ -113,10 +114,17 @@ h1{
 }*/
 
 .title{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Open Sans";
     font-size: medium;
+    font-weight: 400;
 }
 .subtitles{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Open Sans";
     font-size: small;
+}
+
+.subtitles-content{
+   font-family: "Open Sans";
+    font-size: large;
+    font-weight: 400;
 }
