@@ -38,6 +38,11 @@
     padding: 4rem;
 }
 
+.content-1{
+    display: flex;
+}
+
+
 menu{
 
     display: flex;
@@ -68,7 +73,8 @@ li button{
 
 .iconos{
     display: flex;
-    justify-content: end;
+    flex-direction: row;
+    justify-content: left;
     align-items: center;
 }
 
@@ -94,7 +100,11 @@ li img {
 
 .container{
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 }
 
 h1{
